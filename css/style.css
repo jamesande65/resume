@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../fonts/Montserrat-Black.ttf);
+	src: url(../fonts/Montserrat-ExtraBold.ttf);
+	src: url(../fonts/Montserrat-Bold.ttf);
+	src: url(../fonts/Montserrat-SemiBold.ttf);
+	src: url(../fonts/Montserrat-Medium.ttf);
+	src: url(../fonts/Montserrat-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* STYLE RESET START */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../img/bg.jpg);
+    background-repeat-y: repeat;
+    background-size: contain;
+	margin: 0;
+	font: 500 20px/1 "Montserrat", sans-serif;
+	color: #feffff;
+	display: flex;
+	justify-content: space-around;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+
+ul, ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+/* STYLE RESET END */
+
+/* CUSTOM STYLES START */
+.pink {
+	color: #db74a2;
+}
+
+.huge-text {
+	font: 900 28pt/1 "Montserrat", sans-serif;
+	text-transform: uppercase;
+}
+
+.wrapper {
+    max-width: 900px;
+}
+/* CUSTOM STYLES END */
+
+
+/* TOP STYLES START */
+.top {
+	display: flex;
+}
+
+.info,
+.photo,
+.line,
+.information {
+	margin: 20px;
+}
+
+.photo img {
+	width: 170px;
+}
+
+.info {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials {
+	display: flex;
+    flex-direction: column;
+}
+
+.line {
+	border-left: 1px solid rgb(255,255,255,0.5);
+}
+
+.information {
+	max-width: 275px;
+}
+
+.about p,
+.contacts span {
+    font-size: 14px;
+}
+
+.about p,
+.contacts {
+    margin-top: 10px;
+}
+
+.about p {
+	text-align: justify;
+}
+/* TOP STYLES END */
+
+/* EXP STYLES START */
+.expBlock,
+.skills {
+	background: linear-gradient(to right, #6268ab , #d66691);
+    height: 200px;
+    margin: 10px 20px;
+}
+/* EXP STYLES END */
+
+/* BOTTOM STYLES START */
+.bottom {
+	display: flex;
+    justify-content: space-between;
+}
+
+.hobbies,
+.language {
+	background: linear-gradient(to right, #6268ab , #d66691);
+	width: 47%;
+	height: 200px;
+}
+
+.hobbies {
+	margin-left: 20px;
+}
+
+.language {
+	margin-right: 20px;
+}
+/* BOTTOM STYLES END */
