@@ -112,33 +112,147 @@ img{
 }
 /* TOP STYLES END */
 
+/* WRAPPER STYLES START */
+
 /* EXP STYLES START */
 .expBlock,
 .skills {
-	background: linear-gradient(to right, #6268ab , #d66691);
-    height: 200px;
+    background: linear-gradient(to right, #6268ab , #d66691);
     margin: 10px 20px;
+}
+.expBlock {
+    display: flex;
+}
+.experience,
+.education {
+    max-width: 44%;
+    padding: 5px;
+}
+.experience {
+    max-width: 44%;
+    padding: 5px;
+    text-align: right;
+}
+.education {
+    max-width: 44%;
+    padding: 5px;
+    text-align: left;
+}
+.exp-block {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.education .exp-block {
+    align-items: flex-start;
+}
+.years {
+    background: linear-gradient(to right, #d66691, #6268ab);
+    padding: 5px 0;
+    width: 90px;
+    text-align: center;
+    border-radius: 50px;
+}
+.subheading {
+    font-weight: 700;
+    margin: 10px 0;
+}
+.company {
+    font-size: 18px;
+    margin: 5px 0;
+}
+p.company-info {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+.vertical {
+    position: relative;
+    width: 12%;
+}
+.vertical hr {
+    margin: 0;
+}
+.vblock {
+    transform: rotate(90deg);
+    font-size: 55px;
+    position: absolute;
+    top: 185px;
+    right: -130px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.vblock span:first-child {
+    padding-left: 11px;
 }
 /* EXP STYLES END */
 
+/* SKILLS STYLES START */
+.skills {
+    padding: 20px;
+}
+.skills h3 {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.skills .vblock {
+    position: absolute;
+    font-size: 20px;
+    top: 61px;
+    right: -35px;
+}
+.skills .vblock span:first-child {
+    padding-left: 25px;
+}
+.skills .content {
+    display: flex;
+    height: 165px;
+}
+.professional,
+.software {
+    width: 46%;
+}
+.skills .progress-block {
+    display: flex;
+    flex-direction: column;
+}
+.progress-block div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.progress-block div progress {
+    height: 10px;
+    border: none;
+}
+/* SKILLS STYLES END */
+
 /* BOTTOM STYLES START */
 .bottom {
-	display: flex;
+    display: flex;
     justify-content: space-between;
 }
 
 .hobbies,
 .language {
-	background: linear-gradient(to right, #6268ab , #d66691);
-	width: 47%;
-	height: 200px;
+    background: linear-gradient(to right, #6268ab , #d66691);
+    width: 47%;
+    height: 200px;
 }
 
 .hobbies {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 .language {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 /* BOTTOM STYLES END */
+
+/* WRAPPER STYLES END */
