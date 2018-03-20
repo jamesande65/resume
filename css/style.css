@@ -59,6 +59,18 @@ img{
 .wrapper {
     max-width: 900px;
 }
+.pink-bg {
+    background-color: #d26792;
+}
+.violet-bg {
+    background-color: #6d6aac;
+}
+.red-bg {
+    background-color: #d66248;
+}
+.green-bg {
+    background-color: #75b983;
+}
 /* CUSTOM STYLES END */
 
 
@@ -90,7 +102,7 @@ img{
 }
 
 .line {
-	border-left: 1px solid rgb(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);
 }
 
 .information {
@@ -180,7 +192,7 @@ p.company-info {
     font-size: 55px;
     position: absolute;
     top: 185px;
-    right: -130px;
+    right: -129px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -204,7 +216,7 @@ p.company-info {
     position: absolute;
     font-size: 20px;
     top: 61px;
-    right: -35px;
+    right: -33px;
 }
 .skills .vblock span:first-child {
     padding-left: 25px;
@@ -221,15 +233,59 @@ p.company-info {
     display: flex;
     flex-direction: column;
 }
-.progress-block div {
+.progress-block>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0px;
 }
-.progress-block div progress {
-    height: 10px;
-    border: none;
+.progress {
+    width: 59%;
+    margin: 5px 0 3px;
+    height: 12px;
+    background: #333;
+    overflow: hidden;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    box-shadow: 1px 1px 1px #777;
+    -moz-box-shadow: 1px 1px 1px #777;
+    -webkit-box-shadow: 1px 1px 1px #777;
+}
+.progress > div {
+    height: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    animation-duration: 3s;
+    animation-name: animate;
+}
+.professional .animate {
+    float: right;
+}
+.one {
+    width: 87%;
+}
+.two {
+    width: 65%;
+}
+.three {
+    width: 50%;
+}
+.four {
+    width: 85%;
+}
+.five {
+    width: 87%;
+}
+.six {
+    width: 80%;
+}
+.seven {
+    width: 75%;
+}
+.eight {
+    width: 80%;
 }
 /* SKILLS STYLES END */
 
@@ -237,22 +293,50 @@ p.company-info {
 .bottom {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bottom h4 {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .hobbies,
 .language {
     background: linear-gradient(to right, #6268ab , #d66691);
     width: 47%;
-    height: 200px;
 }
 
 .hobbies {
     margin-left: 20px;
 }
 
+.fa-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 5px;
+}
+
+.fa-block {
+    padding: 20px;
+    font-size: 25px;
+    background: linear-gradient(to right, #d66691 , #6268ab);
+    border-radius: 50px;
+    border: 1px solid;
+}
+
 .language {
     margin-right: 20px;
 }
+
+.bottom .progress-block {
+    margin: 27px;
+}
+
 /* BOTTOM STYLES END */
 
 /* WRAPPER STYLES END */
